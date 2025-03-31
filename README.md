@@ -23,7 +23,12 @@ A modern task management application built with Next.js frontend and Laravel bac
    yarn install
    ```
 
-3. Run the development server:
+3. Copy the environment file:
+   ```bash
+   cp .env.example .env
+   ```
+
+4. Run the development server:
    ```bash
    npm run dev
    # or
