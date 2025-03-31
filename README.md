@@ -68,10 +68,14 @@ The application will be available at [http://localhost:3000](http://localhost:30
    php artisan migrate
    ```
 
-6. Start the Laravel development server:
+6. Create a symbolic link for storage:
+   ```bash
+   php artisan storage:link
+   ```
+
+7. Start the development server:
    ```bash
    php artisan serve
-   ```
 
 The backend API will be available at [http://localhost:8000](http://localhost:8000).
 
